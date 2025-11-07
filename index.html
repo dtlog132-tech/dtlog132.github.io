@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fitness Gym</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">
+        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4a9a1e" alt="Logo" />
+        <span>FitnessGym</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#classes">Lớp học</a>
+        <a href="#pricing">Gói</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#contact" class="btn btn-outline">Đăng ký</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Mở menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-overlay">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Một phòng gym gần bạn — Kết quả thật sự</h1>
+          <p class="lead">Huấn luyện viên chuyên nghiệp • Lớp nhóm • Thiết bị hiện đại • Gói ưu đãi</p>
+
+          <div class="cta-group">
+            <a href="#pricing" class="btn btn-primary">Xem ưu đãi</a>
+            <a href="#contact" class="btn btn-ghost">Đăng ký ngay</a>
+          </div>
+
+          <ul class="hero-features">
+            <li>Nhận buổi tập thử miễn phí</li>
+            <li>Cam kết không tăng giá trong 3 tháng</li>
+            <li>Hỗ trợ dinh dưỡng cơ bản</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="promo-card">
+            <div class="promo-top">ƯU ĐÃI</div>
+            <div class="promo-price">Chỉ <strong>199k</strong>/tháng</div>
+            <div class="promo-desc">Gói khởi động — tập tự do + 2 buổi PT</div>
+            <a href="#contact" class="btn btn-primary btn-block">Nhận ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section>
+  <!-- Features / Benefits -->
+  <section id="about" class="section container">
+  <div class="grid-3">
+  <div class="feature">
+  <div class="image-slider">
+    <!-- 3 radio buttons phải nằm TRƯỚC .slides -->
+    <input type="radio" name="slide1" id="s1" checked>
+    <input type="radio" name="slide1" id="s2">
+    <input type="radio" name="slide1" id="s3">
+
+    <!-- Container của ảnh -->
+    <div class="slides">
+      <img src="images/maychaybo.jpg" alt="" id="s1">
+      <img src="images/thietbi.jpg" alt="" id="s2">
+      <img src="images/xedap.jpg" alt="" id="s3">
+    </div>
+
+    <!-- Các nút chuyển ảnh -->
+    <div class="nav-manual">
+      <label for="s1"></label>
+      <label for="s2"></label>
+      <label for="s3"></label>
+    </div>
+  </div>
+
+  <h3>Thiết bị hiện đại</h3>
+  <p>Máy móc cardio & tạ tự do mới nhất, khu vực functional training.</p>
+  </div>
+  </div>
+  </section>
+
+  <!-- Classes / Cards -->
+  <section id="classes" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Lớp & Dịch vụ</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=5f8e')"></div>
+          <div class="card-body">
+            <h3>Gym Tự do</h3>
+            <p>Tập 24/7 với hệ thống an ninh, khu vực cardio & strength.</p>
+            <a href="#pricing" class="btn btn-outline small">Xem gói</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1599058917212-6b6d9b2f7bca?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=9d7b')"></div>
+          <div class="card-body">
+            <h3>Huấn luyện cá nhân</h3>
+            <p>1:1 coaching, lịch tập & dinh dưỡng cá nhân.</p>
+            <a href="#contact" class="btn btn-outline small">Đặt lịch</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1546484959-f66a21b9a3c6?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=8f43')"></div>
+          <div class="card-body">
+            <h3>Lớp nhóm</h3>
+            <p>HIIT, Cycling, Yoga — phù hợp mọi trình độ.</p>
+            <a href="#contact" class="btn btn-outline small">Đăng ký thử</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="section container">
+    <h2 class="section-title">Gói thành viên</h2>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <h3>Gói Sinh Viên</h3>
+        <div class="price">199k <span>/ tháng</span></div>
+        <ul>
+          <li>Truy cập phòng tập</li>
+          <li>2 buổi PT</li>
+          <li>Hỗ trợ dinh dưỡng cơ bản</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Đăng ký</a>
+      </div>
+
+      <div class="price-card featured">
+        <h3>Gói Tiêu chuẩn</h3>
+        <div class="price">399k <span>/ tháng</span></div>
+        <ul>
+          <li>Truy cập 24/7</li>
+          <li>4 buổi PT / năm</li>
+          <li>Lớp nhóm miễn phí</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Đăng ký</a>
+      </div>
+
+      <div class="price-card VIP">
+          <div class="badge-crown">👑</div>
+        <h3>Gói VIP</h3>
+        <div class="price">799k <span>/ tháng</span></div>
+        <ul>
+          <li>PT linh hoạt</li>
+          <li>Chế độ dinh dưỡng cá nhân</li>
+          <li>Ưu tiên lịch lớp</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Đăng ký</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Khách hàng nói gì</h2>
+      <div class="testimonials">
+        <blockquote>
+          "Tập ở đây 6 tháng, giảm 8kg và khỏe hơn rất nhiều — PT nhiệt tình." <cite>— Minh</cite>
+        </blockquote>
+        <blockquote>
+          "Lớp HIIT rất sảng khoái, huấn luyện viên chuyên nghiệp." <cite>— Lan</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Form -->
+  <section id="contact" class="section container">
+    <div class="contact-grid">
+      <div>
+        <h2 class="section-title">Liên hệ & Đăng ký</h2>
+        <p>Điền thông tin để nhân viên liên hệ và hướng dẫn nhận ưu đãi.</p>
+
+        <ul class="contact-info">
+          <li><strong>Địa chỉ:</strong> số 10 Đan Phượng, Hà Nội</li>
+          <li><strong>Hotline:</strong> 034 922 5098</li>
+          <li><strong>Email:</strong> dtlog132@gmail.com</li>
+        </ul>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/xeopyagz" method="POST">
+        <label>
+          Họ & Tên
+          <input type="text" name="Họ & Tên" required />
+        </label>
+
+        <label>
+          Số điện thoại
+          <input type="tel" name="Số Điện Thoại" required />
+        </label>
+
+        <label>
+          Gói quan tâm
+          <select name="Gói">
+            <option>Gói Sinh Viên - 199k</option>
+            <option>Gói Tiêu chuẩn - 399k</option>
+            <option>Gói VIP - 799k</option>
+          </select>
+        </label>
+
+        <label>
+          Lời nhắn
+          <textarea name="Lời nhắn" rows="4"></textarea>
+        </label>
+
+        <button type="submit" class="btn btn-primary btn-block">Gửi</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>FitnessGym</h4>
+        <p>Phòng gym chuyên nghiệp — sức khỏe & phong cách sống.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Đường dẫn</h4>
+        <a href="#classes">Lớp học</a>
+        <a href="#pricing">Gói</a>
+        <a href="#contact">Liên hệ</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <p>dtlog132@gmail.com</p>
+        <p>0349 225 098</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <small>© <span id="year"></span> Fitness gym.</small>
+      </div>
+      <div class="container">
+        <small><strong>Đây là bài tập lớn xin đừng đăng ký</strong></small>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  // small script: current year and mobile nav toggle
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  toggle && toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+</script>
+<script>
+/* --- Slider autosync JS
+   Yêu cầu HTML:
+   - Các radio có id s1,s2,s3 (hoặc tên giống nhau) nằm trong .image-slider
+   - Các radio cùng name (vd name="slide1")
+   - Mỗi .image-slider nên là 1 slider độc lập (hỗ trợ nhiều slider)
+*/
+(function(){
+  // Thời gian hiển thị mỗi slide (ms)
+  const intervalTime = 6000; // 6000ms = 6s (chỉnh tuỳ ý)
+
+  // Tìm tất cả slider trên trang
+  const sliders = document.querySelectorAll('.image-slider');
+
+  sliders.forEach((slider) => {
+    // Lấy tất cả radio (input[type=radio]) trong slider theo thứ tự xuất hiện
+    const radios = Array.from(slider.querySelectorAll('input[type="radio"]'));
+    if (radios.length === 0) return; // nếu không có radio bỏ qua
+
+    let current = radios.findIndex(r => r.checked) || 0;
+    if (current < 0) current = 0;
+
+    let timer = null;
+
+    // Hàm chuyển sang index i
+    function goTo(i){
+      i = (i + radios.length) % radios.length;
+      current = i;
+      radios[i].checked = true; // kích hoạt radio -> kích hoạt CSS :checked
+    }
+
+    // Bắt đầu auto chạy
+    function start(){
+      stop();
+      timer = setInterval(() => {
+        goTo(current + 1);
+      }, intervalTime);
+    }
+
+    // Dừng auto chạy
+    function stop(){
+      if (timer) {
+        clearInterval(timer);
+        timer = null;
+      }
+    }
+
+    // Pause on hover
+    slider.addEventListener('mouseenter', () => {
+      stop();
+    });
+    slider.addEventListener('mouseleave', () => {
+      start();
+    });
+
+    // Nếu người bấm thủ công vào radio/label -> cập nhật current và reset timer
+    radios.forEach((r, idx) => {
+      r.addEventListener('change', () => {
+        if (r.checked) {
+          current = idx;
+          // reset bộ đếm (tránh nhảy ngay khi vừa bấm)
+          start();
+        }
+      });
+
+      // Hỗ trợ người click label: labels có attribute for trỏ tới radio
+      const label = slider.querySelector(`label[for="${r.id}"]`);
+      if (label) {
+        label.addEventListener('click', () => {
+          // setTimeout nhỏ để radio thực sự checked trước khi xử lý
+          setTimeout(() => {
+            current = idx;
+            start();
+          }, 50);
+        });
+      }
+    });
+
+    // Khởi động auto khi load
+    start();
+  });
+})();
+</script>
+</body>
+</html>
